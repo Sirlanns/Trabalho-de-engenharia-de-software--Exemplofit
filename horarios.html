@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exemplofit</title><link rel="stylesheet" href="style.css"></head>
+<body data-page="horarios" data-privada="1"><div class="app">
+<header><a class="logo" href="home.html">Exemplofit</a>
+<button class="ic" onclick="toggle('menu')" aria-label="Menu"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 10h18M3 14h18M3 18h18"/></svg></button>
+<button class="ic av" onclick="toggle('acc')" aria-label="Conta"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4.5"/><path d="M3 21c0-5 4-7 9-7s9 2 9 7z"/></svg></button></header>
+<nav class="drawer" id="menu"><a href="home.html">Início</a><a href="treinos.html">Treinos</a><a href="planos.html">Planos</a><a href="horarios.html">Horários</a><a href="unidades.html">Unidades</a><a href="contato.html">Contato</a></nav>
+<nav class="drawer acc" id="acc"><a href="gerenciar.html">Gerenciar conta</a><a href="perfil.html">Perfil</a><a href="#" onclick="sair();return false">Sair da conta</a></nav>
+<main>
+<h2>Horarios</h2>
+<div class="pane"><select id="se"></select><select id="sc"></select>
+<div class="item" style="padding:16px">Segunda: 7:00 - 22:00</div><div class="item" style="padding:16px">Terça: 7:00 - 22:00</div><div class="item" style="padding:16px">Quarta: 7:00 - 19:00</div><div class="item" style="padding:16px">Quinta: 7:00 - 19:00</div><div class="item" style="padding:16px">Sexta: 7:00 - 22:00</div><div class="item" style="padding:16px">Sabado: 7:00 - 17:00</div><div class="item" style="padding:16px">Domingo: 7:00 - 17:00</div></div>
+</main></div><script src="script.js"></script></body></html>

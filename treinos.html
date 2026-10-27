@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exemplofit</title><link rel="stylesheet" href="style.css"></head>
+<body data-page="treinos" data-privada="1"><div class="app">
+<header><a class="logo" href="home.html">Exemplofit</a>
+<button class="ic" onclick="toggle('menu')" aria-label="Menu"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 10h18M3 14h18M3 18h18"/></svg></button>
+<button class="ic av" onclick="toggle('acc')" aria-label="Conta"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4.5"/><path d="M3 21c0-5 4-7 9-7s9 2 9 7z"/></svg></button></header>
+<nav class="drawer" id="menu"><a href="home.html">Início</a><a href="treinos.html">Treinos</a><a href="planos.html">Planos</a><a href="horarios.html">Horários</a><a href="unidades.html">Unidades</a><a href="contato.html">Contato</a></nav>
+<nav class="drawer acc" id="acc"><a href="gerenciar.html">Gerenciar conta</a><a href="perfil.html">Perfil</a><a href="#" onclick="sair();return false">Sair da conta</a></nav>
+<main>
+<h2>Treinos</h2>
+<div class="pane"><div class="prog"><small style="color:#a77">Progresso</small><div><b style="font-size:26px" id="pct">50%</b> &nbsp;<b style="font-size:13px" id="ses">Sessões: 10/20</b></div><div class="bar"><i id="barra"></i></div>
+<div class="tabs"><b>Tipo de treino</b><span style="padding:3px">Lista de exercícios</span></div>
+<div class="item ex"><input type="checkbox"><div class="th"></div><div>Mesa flexora<div style="font-size:10px;font-weight:normal">3x de 15 | 25Kg</div></div></div>
+<div class="item ex"><input type="checkbox"><div class="th"></div><div>Supino inclinado<div style="font-size:10px;font-weight:normal">2x de 15 | 25Kg</div></div></div>
+<div class="item ex"><input type="checkbox"><div class="th"></div><div>Cruxifixo maquina<div style="font-size:10px;font-weight:normal">2x de 8 | 15Kg</div></div></div></div></div>
+</main></div><script src="script.js"></script></body></html>
